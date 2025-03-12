@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .event-card {
+    @apply relative rounded-lg bg-card p-4 shadow-sm transition-all duration-200 hover:shadow-md;
+  }
+
+  .event-card:hover {
+    @apply -translate-y-0.5;
+  }
+
+  .score-badge {
+    @apply text-lg font-bold px-3 py-1 rounded-full;
+  }
+}

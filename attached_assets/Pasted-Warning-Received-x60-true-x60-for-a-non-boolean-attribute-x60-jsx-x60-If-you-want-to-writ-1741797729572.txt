@@ -1,0 +1,24 @@
+Warning: Received &#x60;true&#x60; for a non-boolean attribute &#x60;jsx&#x60;.
+
+If you want to write it to the DOM, pass a string instead: jsx=&quot;true&quot; or jsx={value.toString()}.
+    at style
+    at div
+    at LandingPage (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/src/pages/landing-page.tsx:33:43)
+    at Route (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a8e700ce:338:16)
+    at Switch (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a8e700ce:394:17)
+    at Router
+    at LanguageProvider (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/src/hooks/use-language.tsx:180:36)
+    at QueryClientProvider (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=a8e700ce:2848:3)
+    at App
+Warning: Received &#x60;true&#x60; for a non-boolean attribute &#x60;global&#x60;.
+
+If you want to write it to the DOM, pass a string instead: global=&quot;true&quot; or global={value.toString()}.
+    at style
+    at div
+    at LandingPage (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/src/pages/landing-page.tsx:33:43)
+    at Route (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a8e700ce:338:16)
+    at Switch (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=a8e700ce:394:17)
+    at Router
+    at LanguageProvider (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/src/hooks/use-language.tsx:180:36)
+    at QueryClientProvider (https://2c9e4e2f-1182-4c16-9078-48904d3e6f41-00-2w0pcabdzj0bi.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=a8e700ce:2848:3)
+    at App

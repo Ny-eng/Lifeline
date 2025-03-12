@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: lifeline
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+    buildFilter:
+      paths:
+        - client/**
+        - server/**
+        - shared/**
+        - package.json
+        - package-lock.json
+      ignoredPaths:
+        - .git/**
+        - node_modules/**
